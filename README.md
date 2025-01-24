@@ -1,5 +1,6 @@
 # CN_Tutorial by desin80
 
+[EN_TRANSLATION](README_EN_TRANSLATION.md)
 **准备**
 
 - MuMu 模拟器或者其他支持 root 的模拟器
