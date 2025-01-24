@@ -10,7 +10,8 @@
 - [mitmproxy](https://mitmproxy.org/)
 - [WireGuard](https://www.wireguard.com/)
 - [Private Server](Server.git)
-- [Private Server Dependence](Dependence.git)- Magisk
+- [Private Server Dependence](Dependence.git)
+- Magisk
 - Python(运行 pip install mitmproxy)
 - BA 日服
 - Root Certificate Manager
