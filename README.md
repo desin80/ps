@@ -8,14 +8,11 @@
 - [mitmproxy](https://mitmproxy.org/)
 - [WireGuard](https://www.wireguard.com/)
 - [Private Server](Server.git)
-- [Private Server Dependence](Dependence.git)
-- [SQL Server Express 2022](https://www.microsoft.com/en-us/download/details.aspx?id=104781)
-- [SSMS (SQL Server Management Studio 20)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16#download-ssms)
-- Magisk
+- [Private Server Dependence](Dependence.git)- Magisk
 - Python(运行 pip install mitmproxy)
 - BA 日服
 - Root Certificate Manager
-  先把上面除了 Magisk 都安装好(WireGuard 和 Root Certificate Manager 安装到模拟器上)，建议先克隆一下模拟器，不然游戏进不去了可能要重装
+  先把上面除了 Magisk 和仓库都安装好(WireGuard 和 Root Certificate Manager 安装到模拟器上)，建议先克隆一下模拟器，不然游戏进不去了可能要重装
 
 **克隆仓库**
 
