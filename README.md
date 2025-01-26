@@ -43,5 +43,5 @@
 
 **注意事项**
 
-- 如果进不去社团可以尝试修改[Private Server]文件夹里的 config.json 和 config.cs（自己找一找），把里面的 ip 改成和上面一样的 ip 再试试
+- 如果进不去社团可以尝试修改[Private Server]文件夹里的 config.json 和 config.cs（在Utils文件夹里），把里面的 ip 改成和上面一样的 ip 再试试
 - 最后redirect_server.py, start.cmd, config.json, config.cs里的ip一定要一样
