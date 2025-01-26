@@ -26,8 +26,8 @@
 
 **修改项目设置**
 
-- 进入[Private Server Dependence]/Scripts/redirect_server_mitmproxy 文件夹, 打开 redirect_server.py，把 SERVER_HOST 的值改成 127.0.0.1（本地用）或者你的服务器 ip
-- 右键`start.cmd`，编辑,把 Your IP address 改成你的 ip，比如`mitmweb -m wireguard --no-http2 -s redirect_server.py --set termlog_verbosity=warn --ignore 127.0.0.1`
+- 进入[Private Server Dependence]/Scripts/redirect_server_mitmproxy 文件夹, 打开 redirect_server.py，把 SERVER_HOST 的值改成 cmd运行`ipconfig` 获取的ip 或者你的服务器 ip
+- 右键`start.cmd`，编辑,把 Your IP address 改成同样的 ip，比如`mitmweb -m wireguard --no-http2 -s redirect_server.py --set termlog_verbosity=warn --ignore 127.0.0.1`
 
 **模拟器刷面具**
 
@@ -43,4 +43,5 @@
 
 **注意事项**
 
-- 如果进不去社团可以尝试修改[Private Server]文件夹里的 config.json 和 config.cs，把里面的 ip 改成和上面一样的 ip 再试试
+- 如果进不去社团可以尝试修改[Private Server]文件夹里的 config.json 和 config.cs（自己找一找），把里面的 ip 改成和上面一样的 ip 再试试
+- 最后redirect_server.py, start.cmd, config.json, config.cs里的ip一定要一样
