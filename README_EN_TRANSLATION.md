@@ -25,8 +25,8 @@ First, install everything listed above except Magisk and the repositories (insta
 
 **Modifying Project Settings**
 
-- Navigate to the `[Private Server Dependence]/Scripts/redirect_server_mitmproxy` folder, open `redirect_server.py`, and change the value of `SERVER_HOST` to `127.0.0.1` (for local use) or your server's IP.
-- Right-click `start.cmd` and edit it, replacing "Your IP address" with your IP. For example: `mitmweb -m wireguard --no-http2 -s redirect_server.py --set termlog_verbosity=warn --ignore 127.0.0.1`.
+- Navigate to the `[Private Server Dependence]/Scripts/redirect_server_mitmproxy` folder, open `redirect_server.py`, and change the value of `SERVER_HOST` to the ip you get from running `ipconfig` in cmd (for local use) or your server's IP.
+- Right-click `start.cmd` and edit it, replacing "Your IP address" with the same IP. For example: `mitmweb -m wireguard --no-http2 -s redirect_server.py --set termlog_verbosity=warn --ignore 127.0.0.1`.
 
 **Rooting the Emulator with Magisk**
 
@@ -43,3 +43,4 @@ First, install everything listed above except Magisk and the repositories (insta
 **Notes**
 
 - If you cannot access the clan, try modifying the `config.json` and `config.cs` files in the `[Private Server]` folder, changing the IP to the same one used above, and try again.
+- the ip in redirect_server.py, start.cmd, config.json, config.cs(found in [Private Server]/[Private Server]/Utils folder) must be the same.
